@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'florest';
+    src: url(FlorestRough.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.judul{
+    font-family: florest;
+    text-align: center;
+    font-size: 80px;
+    color: floralwhite;
+    padding: 50px;
+}
+nav{
+    font-family: florest;
+    background: #FDF2E9;
+    height: 40px;
+    width: 100%;
+}
+nav :hover{
+    background-color:#D98880;
+    color: floralwhite;
+    padding: 10px 20px;
+    
+}
+nav ul{
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #BD392B;
+    font-size: 17px;
+    
+    
+}
+
+form{
+    padding: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column1 {
+    float: left;
+    width: 700px;
+    padding: 5px;
+      margin-left: 10px;
+  }
+  .column2 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+      margin-right: 100px;
+      margin-top: 200px;
+  }
+ 
+  
+  .colum {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    size: 10px 10px;
+  }
+
+
+
+  .judul2{
+    font-family: florest;
+    color: floralwhite;
+    font-size: 80px;
+    float: left;
+}
+.order{
+    font-family: florest;
+    height: 40px;
+    width: 100%;
+    padding: 0 80px;
+    
+}
+
+.order1{
+float: left;
+}
+
+
+.order ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 60px;
+    padding-left: 250px;
+}
+
+.soc{
+    text-align: center;
+}
+
+.colum2{
+    margin-top: 100px;
+}
